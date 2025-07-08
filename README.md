@@ -41,11 +41,13 @@ Telegram-бот, созданный для поиска интересных з�
     DATABASE_URL=sqlite+aiosqlite:///db.sqlite3
     REDIS_HOST=localhost
     REDIS_PORT=6379
+    DEVELOPER_ID=id_вашего_аккаунта
     
     *   BOT_TOKEN: Токен вашего Telegram-бота.
     *   DATABASE_URL: URL для подключения к базе данных (SQLite, PostgreSQL и т.д.).
     *   REDIS_HOST: Хост Redis-сервера.
     *   REDIS_PORT: Порт Redis-сервера.
+    *   DEVELOPER_ID: ID вашего аккаунта.
    ```
 ## Запуск
 ```
